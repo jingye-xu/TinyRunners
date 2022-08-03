@@ -3,8 +3,8 @@ This repository stores the codes for joining the 2022 TinyML Design Contest @ IC
 
 ## Structure
 
-TinyRunnre
---model
---data
---embedded
---doc
+TinyRunnre  
+--model   
+--data  
+--embedded  
+--doc  
