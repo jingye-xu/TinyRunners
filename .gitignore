@@ -130,3 +130,7 @@ dmypy.json
 
 tinyml_contest_data_training
 .vscode
+
+data/images/
+.DS_Store
+.idea
