@@ -37,7 +37,7 @@ def two_classes(y):
 
 
 class DatasetTiny(Dataset):
-    def __init__(self, data_dir="../data", filename="data.gz", transform=None, label_decode=two_classes):
+    def __init__(self, data_dir="../../data", filename="data.gz", transform=None, label_decode=two_classes):
         """
         :param data_dir: data directory
         :param filename: data name
