@@ -134,3 +134,5 @@ tinyml_contest_data_training
 data/images/
 .DS_Store
 .idea
+
+lightning_logs
