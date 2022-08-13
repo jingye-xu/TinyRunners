@@ -64,6 +64,7 @@ class DatasetTiny(Dataset):
         # read data sequence
         x = tensor(self.data["data"].iloc[idx])
         y = self.data["rhythm"].iloc[idx]
+        
         # reshape data to 1,1250,1 = 1 channel, 1250*1
         x = x.reshape(1, len(x), 1)
 
