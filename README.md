@@ -1,10 +1,27 @@
 # TinyRunners
 This repository stores the codes for joining the 2022 TinyML Design Contest @ ICCAD
 
-## Structure
+## Training
 
-TinyRunnre  
---model   
---data  
---embedded  
---doc  
+### Data Preparation
+
+`data` folder stores the compressed `data.gz` file that stores all data.
+
+There are also some functions that can be called individually to help analyze to dataset.
+
+### Model design
+Model design and model structure is stored inside `NN/model/`
+
+Besides, the dataload function for training using pytorch stores here.
+
+### Training
+
+To train the model, make sure you are in the root path of this repository, and run command:
+
+```bash
+python NN/train.py
+```
+
+### Logging and saved model
+
+logging files and saved model are stored at lightning_logs, you can easily use tensorboard to read the logs.
