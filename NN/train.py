@@ -15,7 +15,6 @@ class TinyModel(pl.LightningModule):
         super().__init__()
         self.net = IEGMNet()
 
-
     def training_step(self, batch, batch_idx):
         x, y = batch
         outputs = self.net(x)
@@ -36,12 +35,10 @@ class TinyModel(pl.LightningModule):
         loss = F.cross_entropy(outputs, y)
         
         self.log("val_loss", loss)
-        
-        
+
     def configure_optimizers(self):
         optimizer = optim.Adam(self.parameters(), lr=1e-3)
         return optimizer
-
 
 
 dataset = DatasetTiny("data")
@@ -65,7 +62,7 @@ trainer = pl.Trainer(
     num_nodes=1, 
     precision=16, 
     limit_train_batches=0.5,
-    max_epochs = 20
+    max_epochs=20
     )
 trainer.fit(model, train_loader, val_loader)
 

@@ -19,7 +19,7 @@ NON_VA = [
     ]
 
 
-def read_txt(file_path:str)-> np.ndarray:
+def read_txt(file_path: str) -> np.ndarray:
     with open(file_path) as f:
         lines = f.readlines()
         data = np.array(lines, dtype=np.float32)
@@ -51,8 +51,6 @@ for root, dirs, files in os.walk("data/tinyml_contest_data_training/"):
         
         data_list.append(data)
 
-
-df=pd.DataFrame(data_list)
+df = pd.DataFrame(data_list)
 
 df.to_pickle("data/data.gz")
-
