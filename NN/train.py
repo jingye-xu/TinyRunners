@@ -9,6 +9,8 @@ import pytorch_lightning as pl
 from model.model_1 import IEGMNet
 from model.dataset_load import DatasetTiny
 
+torch.manual_seed(1)
+
 
 class TinyModel(pl.LightningModule):
     def __init__(self):
@@ -45,7 +47,7 @@ dataset = DatasetTiny("data")
 print(len(dataset))
 
 val_count = 300
-batch_size = 128
+batch_size = 32
 data_train, data_val = random_split(dataset, [len(dataset)-val_count, val_count])
 
 train_loader = DataLoader(data_train, batch_size=batch_size)
@@ -67,5 +69,5 @@ trainer = pl.Trainer(
 trainer.fit(model, train_loader, val_loader)
 
 # export model
-input_sample = torch.rand((1, 1,1250,1))
+input_sample = torch.rand((1, 1, 1250, 1))
 model.to_onnx("lightning_logs/model.onnx", input_sample, export_params=True)

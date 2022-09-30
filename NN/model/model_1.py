@@ -1,6 +1,7 @@
 import torch.nn as nn
 import torch.nn.functional as F
 
+
 class IEGMNet(nn.Module):
     def __init__(self):
         super(IEGMNet, self).__init__()
