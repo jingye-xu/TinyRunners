@@ -12,7 +12,7 @@ This repository stores the codes for joining the 2022 TinyML Design Contest @ IC
 
 ## Training
 
-Training repository can alse be seen here:
+This repository stores the training phase:
 
 [https://github.com/jingye-xu/TinyRunners](https://github.com/jingye-xu/TinyRunners)
 
