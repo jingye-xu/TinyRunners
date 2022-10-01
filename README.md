@@ -43,13 +43,13 @@ logging files and saved model are stored at lightning_logs, you can easily use t
 
 ## C Codes for deployment
 
-## ready to deploy
+## Ready to deploy
 
 C codes for deployment is stored here: 
 
 [https://github.com/jingye-xu/TinyRunners-C-code](https://github.com/jingye-xu/TinyRunners-C-code)
 
-## build by your own
+## Build your own
 
 1. Follow the official instructions to build the C code: 
 [Cube-AI](https://github.com/tinymlcontest/tinyml_contest2022_demo_example/blob/master/README-Cube.md)
