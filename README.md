@@ -62,7 +62,7 @@ C codes for deployment is stored here:
 
 ## How to test our model
 
-1. Refer to evaluation repository provided by TinyML Contest committe:
+1. Refer to evaluation repository provided by TinyML Contest committee:
 [demo evaluation](https://github.com/tinymlcontest/tinyml_contest2022_demo_evaluation)
 
 2. Use "validation.py" to validate the model after deploying. Please make sure select the correct serial port.
