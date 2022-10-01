@@ -1,6 +1,11 @@
 # TinyRunners
 This repository stores the codes for joining the 2022 TinyML Design Contest @ ICCAD
 
+## Contents
+
+[1. training](README.md#training)
+
+
 ## Training
 
 ### Data Preparation
