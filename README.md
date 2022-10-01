@@ -4,7 +4,9 @@ This repository stores the codes for joining the 2022 TinyML Design Contest @ IC
 ## Contents
 
 [1. Training](README.md#training)
+
 [2. C codes for deployment](README.md#c-codes-for-deployment)
+
 [3. Trained model weights](README.md#-Trained-model-weights)
 
 
