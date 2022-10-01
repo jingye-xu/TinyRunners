@@ -55,6 +55,7 @@ C codes for deployment is stored here:
 [Cube-AI](https://github.com/tinymlcontest/tinyml_contest2022_demo_example/blob/master/README-Cube.md)
 
 2. When adding our model, please select "Compression" to "high"
+![](Compression.png)
 
 3. Generate code
 
