@@ -3,7 +3,9 @@ This repository stores the codes for joining the 2022 TinyML Design Contest @ IC
 
 ## Contents
 
-[1. training](README.md#training)
+[1. Training](README.md#training)
+[2. C codes for deployment](README.md#c-codes-for-deployment)
+[3. Trained model weights](README.md#-Trained-model-weights)
 
 
 ## Training
@@ -30,3 +32,7 @@ python NN/train.py
 ### Logging and saved model
 
 logging files and saved model are stored at lightning_logs, you can easily use tensorboard to read the logs.
+
+## C Codes for deployment
+
+## Trained model weights
