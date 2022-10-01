@@ -39,7 +39,7 @@ python NN/train.py
 
 logging files and saved model are stored at lightning_logs, you can easily use tensorboard to read the logs.
 
-**Note**: This repository does not store any pre-trained model, the pre-trained model will be submitted along with this repository.
+**Note**: The pre-trained model has a name of "pretrained_model.onnx" and is stored in `NN/model/`.
 
 ## C Codes for deployment
 
@@ -51,10 +51,11 @@ C codes for deployment is stored here:
 
 ## Build your own
 
-1. Follow the official instructions to build the C code: 
+1. Follow the official instructions to build the C code:
 [Cube-AI](https://github.com/tinymlcontest/tinyml_contest2022_demo_example/blob/master/README-Cube.md)
 
 2. When adding our model, please select "Compression" to "high"
+
 ![](Compression.png)
 
 3. Generate code
