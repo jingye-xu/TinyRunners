@@ -39,6 +39,28 @@ python NN/train.py
 
 logging files and saved model are stored at lightning_logs, you can easily use tensorboard to read the logs.
 
+**Note**: This repository does not store any pre-trained model, the pre-trained model will be submitted along with this repository.
+
 ## C Codes for deployment
 
+## ready to deploy
+
+C codes for deployment is stored here: 
+
+[https://github.com/jingye-xu/TinyRunners-C-code](https://github.com/jingye-xu/TinyRunners-C-code)
+
+## build by your own
+
+1. Follow the official instructions to build the C code: 
+[Cube-AI](https://github.com/tinymlcontest/tinyml_contest2022_demo_example/blob/master/README-Cube.md)
+
+2. When adding our model, please select "Compression" to "high"
+
+3. Generate code
+
 ## How to test our model
+
+1. Refer to evaluation repository provided by TinyML Contest committe:
+[demo evaluation](https://github.com/tinymlcontest/tinyml_contest2022_demo_evaluation)
+
+2. Use "validation.py" to validate the model after deploying. Please make sure select the correct serial port.
