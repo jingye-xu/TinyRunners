@@ -1,5 +1,7 @@
 # TinyRunners
-This repository stores the codes for joining the 2022 TinyML Design Contest @ ICCAD
+This repository stores the codes for attending the [2022 TinyML Design Contest @ ICCAD](https://tinymlcontest.github.io/TinyML-Design-Contest/Winners.html)
+
+Rank: 20 out of 150+ teams
 
 ## Contents
 
